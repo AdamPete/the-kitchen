@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.min.css" />
+  <title>Welcome to The Kitchen</title>
+</head>
+
+<body>
+  <nav class="navbar bg-dark">
+    <h1>
+      <a class="text-logo" href="dashboard.html">
+        <img src="img/kitchen-logo.png" class="logo" style="width: 50px">The Kitchen</img>
+      </a>
+    </h1>
+    </div>
+    <ul>
+      <li><a href="profiles.html">Gamers</a></li>
+      <li><a href="register.html">Register</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </nav>
+
+  <!-- Landing Section -->
+  <section class="landing">
+    <video id="videoClips" class="video -dark-overlay" autoplay muted loop>
+      <source id="clip1" src="" type="video/mp4">
+      </source>
+    </video>
+
+    <div class="video-dark-overlay">
+      <div class="landing-inner">
+        <h1>
+          <div id="text" class="x-large">The Kitchen</div>
+          <div>
+            <label hidden for="speed"></label>
+            <input hidden type="number" name="speed" id="speed" value="1" min="1" max="5" step="1">
+          </div hidden>
+        </h1>
+        <p class="lead">
+          Create a gaming profile or profolio, share posts and get connect with other
+          gamers.
+        </p>
+        <div class="buttons">
+          <a href="register.html" class="btn btn-primary">Register</a>
+          <a href="login.html" class="btn btn-primary">Login</a>
+        </div>
+      </div>
+      <a href="#about-us" class="scroll-down-btn">
+        <img src="img/chef-hat-arrow.png"></img>
+      </a>
+  </section>
+
+  <!-- About Section  -->
+  <section id="about-us">
+    <div class="about">
+      <h1 class="section-heading">About This Project</h1>
+      <p class="section-2-paragraph">
+        I'm made this project to practice on my MERN (MongoDB, Express, React, Node.js) development and also to make a
+        website for me and my friends. The point of this project is not to make any money. Its just to show that I can
+        use these technologies proficiently. So feel free to register and make your own
+        profile. Which you can add your favorite games, programming lanauges, add and comment on posts, and much more...
+        (not really that's basically it).
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <!-- <section class="c-section" id="contact">
+    <h1 class="contact-header">Contact</h1>
+    <div class="form-container">
+      <img src="img/kitchen-logo.png" class="form-img">
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea placeholder="Your Message"></textarea>
+        <input type="submit" value="Send">
+      </form>
+    </div>
+  </section> -->
+
+  <!-- footer -->
+  <footer class="footer">
+    <div align="center" class="footerlinks">
+      <a class="footerTags" href="#about-us">About</a>
+      <a class="footerTags" href="#">My Website</a>
+      <a class="footerTags" href="#">Linkin</a>
+      <a class="footerTags" href="https://discord.gg/CcHVBKSh">Discord</a>
+      <a class="footerTags" href="#contact">Contact</a>
+    </div>
+    <!--- /.footerlinks-->
+    <div align="center" class="policy-links">
+      <a href="FAQ.html">FAQs</a>
+    </div>
+    <!--- /.policy-links-->
+    <p align="center" class="text-muted copyright">&copy; Adam Peterson</p>
+  </footer>
+
+  <script src="../js/script.js"></script>
+  <script src="../js/randomVid.js"></script>
+</body>
+
+</html>
